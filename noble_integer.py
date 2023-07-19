@@ -1,4 +1,4 @@
-arr = [1,2,-1,3]
+arr = list(map(int,input("Enter the array elemenst : ")))
 n = len(arr)
 l=[]
 arr = sorted(arr,reverse=True)
